@@ -7,5 +7,12 @@
       "entity/player/hurt2",
       "entity/player/hurt3"
     ]
+  },
+  "entity.player.death": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "entity/player/death"
+    ]
   }
 }
