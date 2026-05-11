@@ -14,5 +14,26 @@
     "sounds": [
       "entity/player/death"
     ]
+  },
+  "entity.experience_orb.pickup": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/leveling_up"
+    ]
+  },
+  "entity.item.pickup": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/pop"
+    ]
+  },
+  "random.break": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/break"
+    ]
   }
 }
