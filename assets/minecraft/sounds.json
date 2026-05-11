@@ -1,0 +1,11 @@
+{
+  "entity.player.hurt": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "entity/player/hurt1",
+      "entity/player/hurt2",
+      "entity/player/hurt3"
+    ]
+  }
+}
