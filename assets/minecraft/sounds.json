@@ -35,5 +35,54 @@
     "sounds": [
       "random/break"
     ]
+  },
+  "block.generic.break": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/break"
+    ]
+  },
+  "block.glass.break": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/break"
+    ]
+  },
+  "block.anvil.land": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/anvil_land"
+    ]
+  },
+  "entity.arrow.hit_player": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/successful_hit"
+    ]
+  },
+  "entity.arrow.shoot": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/bow"
+    ]
+  },
+  "entity.generic.drink": {
+    "category": "player",
+    "replace": true,
+    "sounds": [
+      "random/drink"
+    ]
+  },
+  "entity.generic.explode": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "random/explode1"
+    ]
   }
 }
