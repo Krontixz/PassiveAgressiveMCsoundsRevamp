@@ -57,6 +57,13 @@
       "random/anvil_land"
     ]
   },
+  "block.anvil.use": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/anvil_use"
+    ]
+  },
   "entity.arrow.hit_player": {
     "category": "player",
     "replace": true,
@@ -83,6 +90,27 @@
     "replace": true,
     "sounds": [
       "random/explode1"
+    ]
+  },
+  "block.wooden_door.open": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/door_open"
+    ]
+  },
+  "block.iron_door.open": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      "random/door_open"
+    ]
+  },
+  "entity.generic.splash": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "random/splash"
     ]
   }
 }
