@@ -154,5 +154,34 @@
     "sounds": [
       "random/toast"
     ]
+  },
+  "entity.creeper.primed": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/creeper/primed"
+    ]
+  },
+  "entity.creeper.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/creeper/hurt1",
+      "entity/creeper/hurt2"
+    ]
+  },
+  "entity.creeper.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/creeper/death"
+    ]
+  },
+  "entity.creeper.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/creeper/say1"
+    ]
   }
 }
