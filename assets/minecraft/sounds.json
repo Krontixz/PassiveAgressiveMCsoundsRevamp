@@ -183,5 +183,48 @@
     "sounds": [
       "entity/creeper/say1"
     ]
+  },
+  "entity.villager.ambient": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "entity/villager/ambient1",
+      "entity/villager/ambient2"
+    ]
+  },
+  "entity.villager.no": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "entity/villager/no1"
+    ]
+  },
+  "entity.villager.yes": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "entity/villager/yes1"
+    ]
+  },
+  "entity.villager.hurt": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "entity/villager/hurt1"
+    ]
+  },
+  "entity.villager.death": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "entity/villager/death"
+    ]
+  },
+  "entity.villager.celebrate": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "entity/villager/celebrate"
+    ]
   }
 }
