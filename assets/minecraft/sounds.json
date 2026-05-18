@@ -226,5 +226,36 @@
     "sounds": [
       "entity/villager/celebrate"
     ]
+  },
+  "entity.skeleton.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/skeleton/say1",
+      "entity/skeleton/say2",
+      "entity/skeleton/say3"
+    ]
+  },
+  "entity.skeleton.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/skeleton/hurt1",
+      "entity/skeleton/hurt2"
+    ]
+  },
+  "entity.skeleton.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/skeleton/death"
+    ]
+  },
+  "entity.skeleton.step": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/skeleton/step1"
+    ]
   }
 }
