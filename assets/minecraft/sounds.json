@@ -257,5 +257,127 @@
     "sounds": [
       "entity/skeleton/step1"
     ]
+  },
+  "entity.zombie.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/zombie/say1",
+      "entity/zombie/say2",
+      "entity/zombie/say3"
+    ]
+  },
+  "entity.zombie.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/zombie/hurt1",
+      "entity/zombie/hurt2"
+    ]
+  },
+  "entity.zombie.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/zombie/death"
+    ]
+  },
+  "entity.enderman.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/enderman/idle1"
+    ]
+  },
+  "entity.enderman.stare": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/enderman/stare"
+    ]
+  },
+  "entity.enderman.scream": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/enderman/scream1"
+    ]
+  },
+  "entity.enderman.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/enderman/hurt1"
+    ]
+  },
+  "entity.enderman.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/enderman/death"
+    ]
+  },
+  "entity.endermite.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/endermite/say1"
+    ]
+  },
+  "entity.endermite.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/endermite/hurt1"
+    ]
+  },
+  "entity.endermite.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/endermite/death"
+    ]
+  },
+  "entity.endermite.step": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/endermite/step1"
+    ]
+  },
+  "entity.witch.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/witch/ambient1"
+    ]
+  },
+  "entity.witch.drink": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/witch/drink1"
+    ]
+  },
+  "entity.witch.throw": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/witch/throw1"
+    ]
+  },
+  "entity.witch.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/witch/hurt1"
+    ]
+  },
+  "entity.witch.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/witch/death"
+    ]
   }
 }
