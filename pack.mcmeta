@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 87.0,
+    "min_format": 87.0,
+     "min_format": 87.0,
     "description": "A Passive Aggressive Pack Where Minecraft Roasts You"
   }
 }
