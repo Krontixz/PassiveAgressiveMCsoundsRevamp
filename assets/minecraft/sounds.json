@@ -379,5 +379,47 @@
     "sounds": [
       "entity/witch/death"
     ]
+  },
+  "entity.spider.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/spider/say1"
+    ]
+  },
+  "entity.spider.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/spider/hurt1"
+    ]
+  },
+  "entity.spider.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/spider/death"
+    ]
+  },
+  "entity.phantom.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/phantom/ambient"
+    ]
+  },
+  "entity.phantom.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/phantom/hurt1"
+    ]
+  },
+  "entity.phantom.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/phantom/death"
+    ]
   }
 }
