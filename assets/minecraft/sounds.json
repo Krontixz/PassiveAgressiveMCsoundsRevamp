@@ -421,5 +421,48 @@
     "sounds": [
       "entity/phantom/death"
     ]
+  },
+  "entity.drowned.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/drowned/say1",
+      "entity/drowned/say2"
+    ]
+  },
+  "entity.drowned.hurt": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/drowned/hurt1"
+    ]
+  },
+  "entity.drowned.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/drowned/death"
+    ]
+  },
+  "entity.guardian.ambient": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/guardian/ambient1"
+    ]
+  },
+  "entity.guardian.attack": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/guardian/attack1"
+    ]
+  },
+  "entity.guardian.death": {
+    "category": "hostile",
+    "replace": true,
+    "sounds": [
+      "entity/guardian/death"
+    ]
   }
 }
