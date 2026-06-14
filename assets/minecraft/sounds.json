@@ -1,468 +1,86 @@
 {
-  "entity.player.hurt": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "entity/player/hurt1",
-      "entity/player/hurt2",
-      "entity/player/hurt3"
-    ]
-  },
-  "entity.player.death": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "entity/player/death"
-    ]
-  },
-  "entity.experience_orb.pickup": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/leveling_up"
-    ]
-  },
-  "entity.player.levelup": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/levelup_player"
-    ]
-  },
-  "entity.item.pickup": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/pop"
-    ]
-  },
-  "random.break": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/break"
-    ]
-  },
-  "block.generic.break": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/break"
-    ]
-  },
-  "block.glass.break": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/break"
-    ]
-  },
-  "block.anvil.land": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/anvil_land"
-    ]
-  },
-  "block.anvil.use": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/anvil_use"
-    ]
-  },
-  "entity.arrow.hit_player": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/successful_hit"
-    ]
-  },
-  "entity.arrow.shoot": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/bow"
-    ]
-  },
-  "entity.generic.drink": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/drink"
-    ]
-  },
-  "entity.generic.eat": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/eat"
-    ]
-  },
-  "entity.generic.explode": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "random/explode1"
-    ]
-  },
-  "block.wooden_door.open": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/door_open"
-    ]
-  },
-  "block.iron_door.open": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/door_open"
-    ]
-  },
-  "entity.generic.splash": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "random/splash"
-    ]
-  },
-  "block.chest.close": {
-    "category": "block",
-    "replace": true,
-    "sounds": [
-      "random/chest_close"
-    ]
-  },
-  "entity.player.sleep": {
-    "category": "player",
-    "replace": true,
-    "sounds": [
-      "random/sleep"
-    ]
-  },
-  "ui.button.click": {
-    "category": "master",
-    "replace": true,
-    "sounds": [
-      "random/click"
-    ]
-  },
-  "ui.toast.challenge_complete": {
-    "category": "master",
-    "replace": true,
-    "sounds": [
-      "random/toast"
-    ]
-  },
-  "entity.creeper.primed": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/creeper/primed"
-    ]
-  },
-  "entity.creeper.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/creeper/hurt1",
-      "entity/creeper/hurt2"
-    ]
-  },
-  "entity.creeper.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/creeper/death"
-    ]
-  },
-  "entity.creeper.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/creeper/say1"
-    ]
-  },
-  "entity.villager.ambient": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "entity/villager/ambient1",
-      "entity/villager/ambient2"
-    ]
-  },
-  "entity.villager.no": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "entity/villager/no1"
-    ]
-  },
-  "entity.villager.yes": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "entity/villager/yes1"
-    ]
-  },
-  "entity.villager.hurt": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "entity/villager/hurt1"
-    ]
-  },
-  "entity.villager.death": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "entity/villager/death"
-    ]
-  },
-  "entity.villager.celebrate": {
-    "category": "neutral",
-    "replace": true,
-    "sounds": [
-      "entity/villager/celebrate"
-    ]
-  },
-  "entity.skeleton.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/skeleton/say1",
-      "entity/skeleton/say2",
-      "entity/skeleton/say3"
-    ]
-  },
-  "entity.skeleton.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/skeleton/hurt1",
-      "entity/skeleton/hurt2"
-    ]
-  },
-  "entity.skeleton.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/skeleton/death"
-    ]
-  },
-  "entity.skeleton.step": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/skeleton/step1"
-    ]
-  },
-  "entity.zombie.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/zombie/say1",
-      "entity/zombie/say2",
-      "entity/zombie/say3"
-    ]
-  },
-  "entity.zombie.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/zombie/hurt1",
-      "entity/zombie/hurt2"
-    ]
-  },
-  "entity.zombie.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/zombie/death"
-    ]
-  },
-  "entity.enderman.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/enderman/idle1"
-    ]
-  },
-  "entity.enderman.stare": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/enderman/stare"
-    ]
-  },
-  "entity.enderman.scream": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/enderman/scream1"
-    ]
-  },
-  "entity.enderman.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/enderman/hurt1"
-    ]
-  },
-  "entity.enderman.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/enderman/death"
-    ]
-  },
-  "entity.endermite.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/endermite/say1"
-    ]
-  },
-  "entity.endermite.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/endermite/hurt1"
-    ]
-  },
-  "entity.endermite.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/endermite/death"
-    ]
-  },
-  "entity.endermite.step": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/endermite/step1"
-    ]
-  },
-  "entity.witch.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/witch/ambient1"
-    ]
-  },
-  "entity.witch.drink": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/witch/drink1"
-    ]
-  },
-  "entity.witch.throw": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/witch/throw1"
-    ]
-  },
-  "entity.witch.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/witch/hurt1"
-    ]
-  },
-  "entity.witch.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/witch/death"
-    ]
-  },
-  "entity.spider.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/spider/say1"
-    ]
-  },
-  "entity.spider.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/spider/hurt1"
-    ]
-  },
-  "entity.spider.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/spider/death"
-    ]
-  },
-  "entity.phantom.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/phantom/ambient"
-    ]
-  },
-  "entity.phantom.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/phantom/hurt1"
-    ]
-  },
-  "entity.phantom.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/phantom/death"
-    ]
-  },
-  "entity.drowned.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/drowned/say1",
-      "entity/drowned/say2"
-    ]
-  },
-  "entity.drowned.hurt": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/drowned/hurt1"
-    ]
-  },
-  "entity.drowned.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/drowned/death"
-    ]
-  },
-  "entity.guardian.ambient": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/guardian/ambient1"
-    ]
-  },
-  "entity.guardian.attack": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/guardian/attack1"
-    ]
-  },
-  "entity.guardian.death": {
-    "category": "hostile",
-    "replace": true,
-    "sounds": [
-      "entity/guardian/death"
-    ]
-  }
+  "entity.player.hurt": { "category": "player", "replace": true, "sounds": ["entity/player/hurt1", "entity/player/hurt2", "entity/player/hurt3"] },
+  "entity.player.death": { "category": "player", "replace": true, "sounds": ["entity/player/death"] },
+  "entity.experience_orb.pickup": { "category": "player", "replace": true, "sounds": ["random/leveling_up"] },
+  "entity.player.levelup": { "category": "player", "replace": true, "sounds": ["random/levelup_player"] },
+  "entity.item.pickup": { "category": "player", "replace": true, "sounds": ["random/pop"] },
+  "random.break": { "category": "player", "replace": true, "sounds": ["random/break"] },
+  "block.generic.break": { "category": "block", "replace": true, "sounds": ["random/break"] },
+  "block.glass.break": { "category": "block", "replace": true, "sounds": ["random/break"] },
+  "block.anvil.land": { "category": "block", "replace": true, "sounds": ["random/anvil_land"] },
+  "block.anvil.use": { "category": "block", "replace": true, "sounds": ["random/anvil_use"] },
+  "entity.arrow.hit_player": { "category": "player", "replace": true, "sounds": ["random/successful_hit"] },
+  "entity.arrow.shoot": { "category": "player", "replace": true, "sounds": ["random/bow"] },
+  "entity.generic.drink": { "category": "player", "replace": true, "sounds": ["random/drink"] },
+  "entity.generic.eat": { "category": "player", "replace": true, "sounds": ["random/eat"] },
+  "entity.generic.explode": { "category": "hostile", "replace": true, "sounds": ["random/explode1"] },
+  "block.wooden_door.open": { "category": "block", "replace": true, "sounds": ["random/door_open"] },
+  "block.iron_door.open": { "category": "block", "replace": true, "sounds": ["random/door_open"] },
+  "entity.generic.splash": { "category": "neutral", "replace": true, "sounds": ["random/splash"] },
+  "block.chest.close": { "category": "block", "replace": true, "sounds": ["random/chest_close"] },
+  "entity.player.sleep": { "category": "player", "replace": true, "sounds": ["random/sleep"] },
+  "ui.button.click": { "category": "master", "replace": true, "sounds": ["random/click"] },
+  "ui.toast.challenge_complete": { "category": "master", "replace": true, "sounds": ["random/toast"] },
+  "entity.creeper.primed": { "category": "hostile", "replace": true, "sounds": ["entity/creeper/primed"] },
+  "entity.creeper.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/creeper/hurt1", "entity/creeper/hurt2"] },
+  "entity.creeper.death": { "category": "hostile", "replace": true, "sounds": ["entity/creeper/death"] },
+  "entity.creeper.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/creeper/say1"] },
+  "entity.villager.ambient": { "category": "neutral", "replace": true, "sounds": ["entity/villager/ambient1", "entity/villager/ambient2"] },
+  "entity.villager.no": { "category": "neutral", "replace": true, "sounds": ["entity/villager/no1"] },
+  "entity.villager.yes": { "category": "neutral", "replace": true, "sounds": ["entity/villager/yes1"] },
+  "entity.villager.hurt": { "category": "neutral", "replace": true, "sounds": ["entity/villager/hurt1"] },
+  "entity.villager.death": { "category": "neutral", "replace": true, "sounds": ["entity/villager/death"] },
+  "entity.villager.celebrate": { "category": "neutral", "replace": true, "sounds": ["entity/villager/celebrate"] },
+  "entity.skeleton.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/skeleton/say1", "entity/skeleton/say2", "entity/skeleton/say3"] },
+  "entity.skeleton.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/skeleton/hurt1", "entity/skeleton/hurt2"] },
+  "entity.skeleton.death": { "category": "hostile", "replace": true, "sounds": ["entity/skeleton/death"] },
+  "entity.skeleton.step": { "category": "hostile", "replace": true, "sounds": ["entity/skeleton/step1"] },
+  "entity.zombie.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/zombie/say1", "entity/zombie/say2", "entity/zombie/say3"] },
+  "entity.zombie.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/zombie/hurt1", "entity/zombie/hurt2"] },
+  "entity.zombie.death": { "category": "hostile", "replace": true, "sounds": ["entity/zombie/death"] },
+  "entity.enderman.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/enderman/idle1"] },
+  "entity.enderman.stare": { "category": "hostile", "replace": true, "sounds": ["entity/enderman/stare"] },
+  "entity.enderman.scream": { "category": "hostile", "replace": true, "sounds": ["entity/enderman/scream1"] },
+  "entity.enderman.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/enderman/hurt1"] },
+  "entity.enderman.death": { "category": "hostile", "replace": true, "sounds": ["entity/enderman/death"] },
+  "entity.endermite.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/endermite/say1"] },
+  "entity.endermite.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/endermite/hurt1"] },
+  "entity.endermite.death": { "category": "hostile", "replace": true, "sounds": ["entity/endermite/death"] },
+  "entity.endermite.step": { "category": "hostile", "replace": true, "sounds": ["entity/endermite/step1"] },
+  "entity.witch.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/witch/ambient1"] },
+  "entity.witch.drink": { "category": "hostile", "replace": true, "sounds": ["entity/witch/drink1"] },
+  "entity.witch.throw": { "category": "hostile", "replace": true, "sounds": ["entity/witch/throw1"] },
+  "entity.witch.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/witch/hurt1"] },
+  "entity.witch.death": { "category": "hostile", "replace": true, "sounds": ["entity/witch/death"] },
+  "entity.spider.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/spider/say1"] },
+  "entity.spider.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/spider/hurt1"] },
+  "entity.spider.death": { "category": "hostile", "replace": true, "sounds": ["entity/spider/death"] },
+  "entity.phantom.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/phantom/ambient"] },
+  "entity.phantom.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/phantom/hurt1"] },
+  "entity.phantom.death": { "category": "hostile", "replace": true, "sounds": ["entity/phantom/death"] },
+  "entity.drowned.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/drowned/say1", "entity/drowned/say2"] },
+  "entity.drowned.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/drowned/hurt1"] },
+  "entity.drowned.death": { "category": "hostile", "replace": true, "sounds": ["entity/drowned/death"] },
+  "entity.guardian.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/guardian/ambient1"] },
+  "entity.guardian.attack": { "category": "hostile", "replace": true, "sounds": ["entity/guardian/attack1"] },
+  "entity.guardian.death": { "category": "hostile", "replace": true, "sounds": ["entity/guardian/death"] },
+  "entity.pillager.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/pillager/ambient1"] },
+  "entity.pillager.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/pillager/hurt1"] },
+  "entity.pillager.death": { "category": "hostile", "replace": true, "sounds": ["entity/pillager/death"] },
+  "entity.vindicator.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/vindicator/ambient1"] },
+  "entity.vindicator.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/vindicator/hurt1"] },
+  "entity.vindicator.death": { "category": "hostile", "replace": true, "sounds": ["entity/vindicator/death"] },
+  "entity.slime.squish": { "category": "hostile", "replace": true, "sounds": ["entity/slime/squish1"] },
+  "entity.slime.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/slime/hurt1"] },
+  "entity.slime.death": { "category": "hostile", "replace": true, "sounds": ["entity/slime/death"] },
+  "entity.silverfish.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/silverfish/ambient1"] },
+  "entity.silverfish.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/silverfish/hurt1"] },
+  "entity.silverfish.death": { "category": "hostile", "replace": true, "sounds": ["entity/silverfish/death"] },
+  "entity.evoker.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/evoker/ambient1"] },
+  "entity.evoker.prepare_summon": { "category": "hostile", "replace": true, "sounds": ["entity/evoker/prepare_summon1"] },
+  "entity.vex.ambient": { "category": "hostile", "replace": true, "sounds": ["entity/vex/ambient1"] },
+  "entity.vex.hurt": { "category": "hostile", "replace": true, "sounds": ["entity/vex/hurt1"] },
+  "entity.warden.listening": { "category": "hostile", "replace": true, "sounds": ["entity/warden/listening1"] },
+  "entity.warden.sonic_boom": { "category": "hostile", "replace": true, "sounds": ["entity/warden/sonic_boom1"] },
+  "entity.warden.death": { "category": "hostile", "replace": true, "sounds": ["entity/warden/death"] }
 }
